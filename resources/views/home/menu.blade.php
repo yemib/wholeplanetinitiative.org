@@ -32,8 +32,7 @@
                   <div class="col-lg-12">
                       <nav class="navbar navbar-expand-lg">
                           <a class="navbar-brand" href="/">
-                <img width="50" height="50" src="/logo.png" alt="Logo">
-                          </a>
+                <img src="/logo.png" alt="Logo" style="width:50px;height:50px;object-fit:contain;display:block;">  </a>
                           <button class="navbar-toggler" type="button" data-toggle="collapse"
                               data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                               aria-expanded="false" aria-label="Toggle navigation">
