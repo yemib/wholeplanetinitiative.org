@@ -12,7 +12,8 @@ $logo = logos::first();
 <head>
 
         <!-- Favicon -->
-        <link rel="icon" href="https://wholeplanetinitiative.org/logo.png" type="image/x-icon">
+        <link rel="icon"
+         href="https://wholeplanetinitiative.org/logo.png" type="image/x-icon">
 
         @yield('icon') 
 
@@ -153,8 +154,8 @@ $logo = logos::first();
 
                     </ul>
                     <ul class="list-inline contact-info">
-                        <li class="list-inline-item"><i class="fas fa-phone"></i> <a href="tel:+1234567890">+1 (234)
-                                567-890</a></li>
+                        <li class="list-inline-item"><i class="fas fa-phone"></i>
+                         <a href="tel:<?php echo $contact->phone1; ?>"><?php echo $contact->phone1; ?></a></li>
                         <li class="list-inline-item"><i class="fas fa-envelope"></i> <a
                                 href="mailto:<?php echo $contact->email; ?>"><?php echo $contact->email; ?></a></li>
                         <li class="list-inline-item"><i class="fas fa-map-marker-alt"></i> <?php echo $contact->address; ?></li>

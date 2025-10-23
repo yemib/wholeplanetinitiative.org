@@ -108,9 +108,15 @@ Route::get('getposts', function () {
 
 
 
-Route::get('/',  function () {
+/* Route::get('/',  function () {
 	return  view('home2');
+}); */
+
+Route::get('/',  function () {
+	return  view('home.index');
+	
 });
+
 
 
 Route::post('/send_volunteer', function (Request   $request) {
