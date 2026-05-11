@@ -105,7 +105,7 @@ $logo  = logos::first();
    
     <!--====== PRELOADER PART START ======-->
 
-    <div   class="preloader">
+    <div  style="opacity: 0.3;"  class="preloader">
         <div class="loader rubix-cube">
             <div class="layer layer-1"></div>
             <div class="layer layer-2"></div>
